@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.viewWeb.delegate = self;
-   
+    self.viewWeb.scrollView.bounces = NO;
 
     // Do any additional setup after loading the view, typically from a nib.
     

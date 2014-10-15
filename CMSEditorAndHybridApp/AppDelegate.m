@@ -19,7 +19,7 @@
     // Override point for customization after application launch.
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    NSDictionary *appDefaults = [NSDictionary dictionaryWithObject:@"https://frontapp.com/"
+    NSDictionary *appDefaults = [NSDictionary dictionaryWithObject:@"http://webapp.appical.net/mobile/users/sign_in"
                                                             forKey:@"url"];
     [defaults registerDefaults:appDefaults];
     [defaults synchronize];
